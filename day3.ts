@@ -93,4 +93,4 @@ async function main(): Promise<void> {
 	console.log("Total Badge Priorities: ",total_badge_priorities);
 };
 
-await main();
+main();
