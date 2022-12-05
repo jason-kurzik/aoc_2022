@@ -5,7 +5,7 @@ async function main() {
 	const elf_list: number[] = [];
 	elf_list[elf_number] = 0;
 
-	const file = await fs.open("input/input");
+	const file = await fs.open("input/day1");
 
 	for await (const line of file.readLines()) {
 		if (line.length === 0) {
